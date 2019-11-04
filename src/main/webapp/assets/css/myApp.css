@@ -1,0 +1,329 @@
+html{
+height:100%;	
+}
+
+body {
+  height:100%;
+}
+
+.content{
+	padding:0;
+}
+
+@media (min-width: 992px) {
+}
+
+
+.wrapper{
+	position:relative;
+	min-height:100%;
+	padding-bottom:50px;
+}
+
+
+.myfooter{
+	position: absolute;
+	bottom:0;
+	display:block;
+	width:100%;
+	height:50px;
+	background-color: #6c757d;
+}
+
+.myfooter p{
+	display:block;
+	text-align: center;
+	color: white;
+	padding-top:10px;
+}
+
+.dataTableImg{
+	
+	width:60px;
+	padding:0;
+	margin:0;
+	
+}
+
+.float-left{
+	width:25%;
+
+} 
+.float-left .img-fluid{
+	
+	width:100%;
+	
+} 
+
+
+.card-img-top {
+	
+	width: 220px;
+	height:220px;
+}
+
+.help-block {
+	color: red;
+	
+}
+
+.navbar-right a{
+	color:white;
+}
+
+.navbar-right a:hover{
+	color:black;
+}
+
+
+/*Cart CSS*/
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+
+.cartImg {
+	width:100px;
+	height: 100px;
+}
+
+.orderImg{
+	width:50px;
+	height: 50px;
+}
+
+.cartImg alt{
+	font-style:italic;
+	color:red;
+}
+
+.col-sm-10{
+	
+	padding-left:60px;
+}
+
+.profileImg {
+	border:solid 1px black;
+	width: 160px;
+	height: 160px;
+}
+
+
+/* CSS for credit card form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+
+/* CSS FOR RECEIPT */
+.text-danger strong {
+    		color: #9f181c;
+		}
+		.receipt-main {
+			background: #ffffff none repeat scroll 0 0;
+			border-bottom: 12px solid #333333;
+			border-top: 12px solid #9f181c;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			padding: 40px 30px !important;
+			position: relative;
+			box-shadow: 0 1px 21px #acacac;
+			color: #333333;
+			font-family: open sans;
+		}
+		.receipt-main p {
+			color: #333333;
+			font-family: open sans;
+			line-height: 1.42857;
+		}
+		.receipt-footer h1 {
+			font-size: 15px;
+			font-weight: 400 !important;
+			margin: 0 !important;
+		}
+		.receipt-main::after {
+			background: #414143 none repeat scroll 0 0;
+			content: "";
+			height: 5px;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: -13px;
+		}
+		.receipt-main thead {
+			background: #414143 none repeat scroll 0 0;
+		}
+		.receipt-main thead th {
+			color:#fff;
+		}
+		.receipt-right h5 {
+			font-size: 16px;
+			font-weight: bold;
+			margin: 0 0 7px 0;
+		}
+		.receipt-right p {
+			font-size: 12px;
+			margin: 0px;
+		}
+		.receipt-right p i {
+			text-align: center;
+			width: 18px;
+		}
+		.receipt-main td {
+			padding: 9px 20px !important;
+		}
+		.receipt-main th {
+			padding: 13px 20px !important;
+		}
+		.receipt-main td {
+			font-size: 13px;
+			font-weight: initial !important;
+		}
+		.receipt-main td p:last-child {
+			margin: 0;
+			padding: 0;
+		}	
+		.receipt-main td h2 {
+			font-size: 20px;
+			font-weight: 900;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		.receipt-header-mid .receipt-left h1 {
+			font-weight: 100;
+			margin: 34px 0 0;
+			text-align: right;
+			text-transform: uppercase;
+		}
+		.receipt-header-mid {
+			margin: 24px 0;
+			overflow: hidden;
+		}
+		
+		
+		/* Checkout flow CSS */
+		
+		.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+
+.bg-dark{
+	border-bottom: 1px solid #eee;
+	background-color: #f0f8ff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #131219;
+}
+.subheader{background:#59c379;height:50px;padding:11px 0 9px;line-height:30px;text-transform:uppercase;margin:0;direction:ltr;}
+.subheader p{font-size:10px;color:#dedede;margin:0 0 0 15px;line-height:inherit;display:inline-block;}
+.subheader .subheader-menu ul{font-size:10px;}
+.subheader .subheader-menu ul > li{margin:0;padding:0;display:inline-block;border-left:1px solid rgba(255, 255, 255, 0.07);}
+.subheader .subheader-menu ul > li:first-child{border-left:0;}
+.subheader .subheader-menu ul > li:last-child a{padding-right:0;}
+.subheader .subheader-menu ul > li a{display:block;padding:0 15px;color:#fff;line-height:30px;}
+.subheader .subheader-menu ul > li a:hover{color:#59c379;}
+.subheader .select-wrapper{display:inline-block;float:none;border:0;min-width:70px;height:30px;vertical-align:middle;margin:0;border-right:1px solid rgba(255, 255, 255, 0.07);}
+.subheader .select-wrapper:first-child select{padding-left:0;}
+.subheader .select-wrapper select{background:none;height:30px;color:#fff;font-size:10px;text-transform:uppercase;padding:7px 27px 9px 17px;}
+.subheader .select-wrapper img{display:none;}
+.subheader .select-wrapper:after{top:8px;right:13px;font-size:10px;color:#fff;}
+@media only screen and (min-width:40.063em){.subheader .row{padding:0 5px;}
+}
+
+.logo{
+	max-height: 50px;
+	margin-top: -20px;
+
+}
+/* CONTACT PAGE */
+
+
